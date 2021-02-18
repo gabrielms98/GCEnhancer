@@ -6,11 +6,10 @@
 Plugin criado como forma de melhorar a experiência de uso da plataforma GamersClub. Não tem fins lucrativos nem intenção de substituir alguma assinatura da plataforma.
 
 ### Como instalar:
-```
-- Baixe os arquivos desse repositorio
+
+- [Baixe](https://github.com/gabrielms98/GCEnhancer/releases) a release mais atualizada
 - Abra o gerenciador de extenções do chrome e clique em "Carregar sem compactação"
 - Selecione a pasta "dist"
-```
 
 ### TODOs:
 
