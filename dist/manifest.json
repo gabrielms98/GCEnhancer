@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "GC Enhancer",
+    "version": "1.0.0",
+    "description": "",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "assets/icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent"
+    ],
+    "content_scripts": [
+        {
+            "matches":[
+                "*://*.gamersclub.com.br/lobby"
+            ],
+            "js": ["content.js", "teamsList.js"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://*.gamersclub.com.br/jogador/*"
+            ],
+            "js": [
+                "playerProfile.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
