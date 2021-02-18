@@ -15,6 +15,7 @@ Plugin criado como forma de melhorar a experiência de uso da plataforma GamersC
 ### TODOs:
 
 <img align='right' src="https://i.imgur.com/0cmA8qh.png" >
+
 ```
  - Setar lite mode: 👍
  - Mostrar KD de cada player: 👍
